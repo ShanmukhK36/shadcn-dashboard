@@ -1,3 +1,4 @@
+/** format */
 'use client'
 
 import React from "react";
@@ -72,7 +73,7 @@ export default function BarChart({}: Props) {
                     axisLine={false}
                     stroke="#88888"
                     fontSize={12}
-                    tickFormatter={(value) => '$${value}'}
+                    tickFormatter={(value) => `$${value}`}
                 />
                 <Bar dataKey={"total"} radius={[4,4,0,0]} />
             </BarGraph>
