@@ -3,7 +3,6 @@
 
 import { DataTable } from "@/components/DataTable";
 import PageTitle from "@/components/PageTitle";
-import { cn } from "@/lib/utils";
 import { ColumnDef } from "@tanstack/react-table";
 import React from "react";
 

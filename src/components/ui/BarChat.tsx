@@ -56,7 +56,7 @@ const data = [
     }
 ]
 
-export default function BarChart({} ) {
+export default function BarChart({}: props) {
     return (
         <ResponsiveContainer width={"100%"} height={350}>
             <BarGraph data={data}>
